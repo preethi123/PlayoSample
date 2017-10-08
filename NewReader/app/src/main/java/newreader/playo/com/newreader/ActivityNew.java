@@ -137,7 +137,7 @@ public class ActivityNew extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<News> call, Throwable t) {
-
+                swipeProgress(false);
 
             }
 
@@ -148,6 +148,7 @@ public class ActivityNew extends AppCompatActivity {
     private void requestAction() {
         showFailedView(false, "");
         showNoItemView(false);
+        swipeProgress(true);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
