@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewReader</string>
+    <string name="share_content">I Would like to share this with you. Here You Can Download This Application from PlayStore</string>
+    <string name="no_post_found">Oops, no shayari found!</string>
+    <!--network-->
+    <string name="failed_text">Failed to Connect Internet!</string>
+    <string name="no_internet_text">No Internet Connection!</string>
+    <string name="no_info_found">No Info Found</string>
+</resources>
